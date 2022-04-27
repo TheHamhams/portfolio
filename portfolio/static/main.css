@@ -46,6 +46,7 @@ a {
 
 .article-content {
     white-space: pre-line;
+    text-indent: 50px;
 }
 
 .article-metadata {
@@ -54,9 +55,12 @@ a {
     border-bottom: 1px solid #e3e3e3
 }
 
+h1 {
+    text-align:center;
+}
 
-img {
-    max-width: 100%
+h2 {
+    padding-bottom: 10px;
 }
 
 .image {
