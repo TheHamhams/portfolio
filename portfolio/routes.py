@@ -18,6 +18,10 @@ def nlp():
 def kaggle():
     return render_template('kaggle.html', title='Kaggle')
 
+@app.route('/flask')
+def flask():
+    return render_template('flask.html', title='Flask')
+
 @app.route('/unity')
 def unity():
     return render_template('unity.html', title='Unity')
