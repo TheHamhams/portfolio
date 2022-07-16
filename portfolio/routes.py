@@ -18,6 +18,10 @@ def nlp():
 def kaggle():
     return render_template('kaggle.html', title='Kaggle')
 
+@app.route('/javascript')
+def javascript():
+    return render_template('javascript.html', title='JavaScript')
+
 @app.route('/flask')
 def flask():
     return render_template('flask.html', title='Flask')
